@@ -26,7 +26,7 @@ py run1.py
 py run2.py
 py run3.py
 ```
-As another option depending on your system:
+As another option depending on the system:
 ```bash
 python run1.py
 python run2.py
