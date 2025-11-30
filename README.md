@@ -2,11 +2,11 @@
 ## Author: Chris Cargill
 This README.md file will explain how to properly run the code files for this assignment as well as the purpose of each script.
 ## File Rundown
-`run1.py`: this file covers Problem 1 and runs the SVM multi-label classification for the Scene dataset
+`problem1.py`: this file covers Problem 1 and runs the SVM multi-label classification for the Scene dataset
 
-`run2.py`: this file covers Problem 2 and runs the K-Means clustering implementation for the Seeds dataset
+`problem2.py`: this file covers Problem 2 and runs the K-Means clustering implementation for the Seeds dataset
 
-`run3.py`: this file covers Problem 3 and runs the Random Forest and four balancing techniques for the German Credit Card dataset
+`problem3.py`: this file covers Problem 3 and runs the Random Forest and four balancing techniques for the German Credit Card dataset
 ## Python Libraries
 Make sure the following libraries are downloaded already:
 numpy
@@ -32,4 +32,4 @@ python run1.py
 python run2.py
 python run3.py
 ```
-The output in the terminal should include the results for each question.
+The output in the terminal should produce the results for all three questions.
