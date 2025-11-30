@@ -61,6 +61,7 @@ def kmeans(seeds, k, max_iterations=100, tolerance=0.001):
 k_values = [3, 5, 7]
 n_runs = 10
 
+# Print Results
 results = {}
 for k in k_values:
     sse_values = []
@@ -69,8 +70,5 @@ for k in k_values:
         sse_values.append(sse)
     avg_sse = np.mean(sse_values)
     results[k] = avg_sse
-
-# Print Results
 for k in k_values:
-
     print(f"k={k}: Average SSE = {results[k]:.4f}")

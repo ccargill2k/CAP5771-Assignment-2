@@ -17,7 +17,7 @@ num_test = X_test.shape[0]
 poly_pred = np.zeros((num_test, num_classes))
 for class_idx in range(num_classes):
     y_class = y_train[:, class_idx].astype(int)
-    svc = SVC(kernel='poly', degree=2, coef0=1, gamma='auto')
+    svc = SVC(kernel='poly', degree=2)
     svc.fit(X_train, y_class)
     pred = svc.predict(X_test)
     poly_pred[:, class_idx] = pred
@@ -43,7 +43,7 @@ print(f"Polynomial Kernel: {poly_acc * 100:.2f}%")
 rbf_pred = np.zeros((num_test, num_classes))
 for class_idx in range(num_classes):
     y_class = y_train[:, class_idx].astype(int)
-    svc = SVC(kernel='rbf', gamma=2)
+    svc = SVC(kernel='rbf', degree=2)
     svc.fit(X_train, y_class)
     pred = svc.predict(X_test)
     rbf_pred[:, class_idx] = pred
