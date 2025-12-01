@@ -34,12 +34,12 @@ Make sure the following libraries are downloaded already:
 
 (5) imblearn
 
-To install these Python packages:
+If not, install these Python packages by copying the following text box and paste it in your terminal:
 ```bash
 pip install numpy pandas scikit-learn scipy imblearn
 ```
 ## Run the Code
-Run the following code in the terminal for Questions #1-3:
+Run the following code in the terminal for Questions #1-3 by copying the following text box:
 ```bash
 py run1.py
 py run2.py
