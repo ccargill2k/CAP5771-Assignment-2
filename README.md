@@ -23,11 +23,11 @@ This README.md file will explain how to properly run the code files for this ass
 `German_Credit_Data.txt`: is the dataset for Problem 3
 ## Python Libraries
 Make sure the following libraries are downloaded already:
-numpy
-pandas
-scikit-learn
-scipy
-imblearn
+(1) numpy
+(2) pandas
+(3) scikit-learn
+(4) scipy
+(5) imblearn
 
 To install these Python packages:
 ```bash
